@@ -4,3 +4,9 @@ out = "out"
 libs = ["lib"]
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+
+remappings = [
+    "@solmate-utils/=lib/solmate/src/utils/",
+    "@openzeppelin=lib/openzeppelin-contracts/contracts/token/ERC721/",
+]
